@@ -14,6 +14,8 @@ public class EmpDAO {
 	private static EmpDAO eDAO;
 	
 	private EmpDAO() {
+		//이것은 생성자
+		System.out.println("이것은 생성자");
 	}//EmpDAO
 	
 	public static EmpDAO getInstance() {
